@@ -1,0 +1,24 @@
+@import "../../assets/styles/setup/vars";
+
+.skillz {
+    .skills {
+        display: flex;
+        justify-content: space-between;
+        -webkit-box-pack: justify;
+
+        .skills-category {
+            .skills-category-label {
+                transition: all 0.2s ease-in-out;
+                font-weight: 700;
+                color: #36363c;
+                text-transform: uppercase;
+                &:hover {
+                    color: $logo;
+                }
+            }
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
