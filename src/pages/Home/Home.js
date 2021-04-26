@@ -2,11 +2,11 @@
 import React, { useEffect } from 'react'
 
 import './Home.scss'
-import { Header } from './../../cmps/Header/Header';
-import { Background } from './../../cmps/Background/Background';
-import { Skills } from './../../cmps/Skills/Skills';
-import { Experience } from './../../cmps/Experience/Experience';
-import { Footer } from './../../cmps/Footer/Footer';
+import { Header } from '../../cmps/Header/Header';
+import { Background } from '../../cmps/Background/Background';
+import { Skills } from '../../cmps/Skills/Skills';
+import { Experience } from '../../cmps/Experience/Experience';
+import { Footer } from '../../cmps/Footer/Footer';
 
 
 
