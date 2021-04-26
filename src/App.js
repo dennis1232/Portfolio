@@ -9,10 +9,10 @@ const App = () => {
     <div className="App">
       <ToggleLight></ToggleLight>
       <Switch>
-        <Route exact path='/' component={Home} />
+        <Home></Home>
       </Switch>
     </div>
   );
 }
 
-export default withRouter(App);
+App
