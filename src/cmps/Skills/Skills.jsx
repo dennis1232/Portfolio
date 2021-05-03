@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 
 export const Skills= ()=>  {
   useEffect(() => {
-    AOS.init({duration:1000})
+    AOS.init({duration:800})
    
   }, [])
 
@@ -20,14 +20,14 @@ export const Skills= ()=>  {
             <li className="skills-category-item">JavaScript (ES6)</li>
             <li className="skills-category-item">TypeScript</li>
             <li className="skills-category-item">HTML</li>
-            <li className="skills-category-item">CSS/Sass</li>
+            <li className="skills-category-item">CSS</li>
         </ul>
         <ul className="skills-category">
             <div className="skills-category-label">FRAMEWORKS</div>
             <li className="skills-category-item">React</li>
             <li className="skills-category-item">Vue</li>
             <li className="skills-category-item">Node.js</li>
-            <li className="skills-category-item">CSS/Sass</li>
+            <li className="skills-category-item">Sass</li>
         </ul>
         <ul className="skills-category">
             <div className="skills-category-label">TOOLS</div>

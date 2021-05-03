@@ -9,7 +9,7 @@ import Pdf from '../../assets/documents/CV.pdf'
 
 export const Experience = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000,easing: 'ease-in-sine'})
+    AOS.init({ duration: 900 })
 
   }, [])
   return (
@@ -24,9 +24,18 @@ export const Experience = () => {
             </div>
             <div className="job-time"> Jan 2021 - Present</div>
           </div>
-          <div className="job-position mb100">Full Stack Developer</div>
+          <div className="job-position">Latet Pe by Coda Project, volunteer work: A game app that helps parent and children to
+                                                    communicate better to increase the child’s protection:</div>
+          <ul className='doing'>
+            <li>Build front-end architecture.</li>
+            <li>mplement front-end logic, including state management using React context and
+            hooks.
+            </li>
+            <li>Implement UX/UI with SASS and Material UI library.
+            </li>
+          </ul>
         </div>
-          <a href={Pdf} target="_blank" className="resume" data-aos="fade-right">View My Resume <i data-aos="fade-right" className="fas fa-arrow-right"></i></a>
+        <a href={Pdf} target="_blank" className="resume" data-aos="fade-right">View My Resume <i data-aos="fade-right" className="fas fa-arrow-right"></i></a>
       </div>
 
     </section>

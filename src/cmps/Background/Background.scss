@@ -1,5 +1,23 @@
 .background {
     p{
         margin: 0;
+        max-width: 500px;
+    }
+    .profile-picture{
+      flex-grow: 1;
+        width: 180px;
+        border-radius: 5px;
+    //   object-fit:cover;
+    }
+}
+@media (max-width:600px){
+    .background{
+        .content{
+            flex-direction: column;
+            .profile-picture{
+    margin-top: 20px;
+    align-self: center;
+            }
+        }
     }
 }

@@ -29,9 +29,17 @@
     }
     .resume {
             text-decoration: none;
-            color:$logo;
-            &:hover {
-                color: $font2;
+            color: $font2;
+            font-weight: 900;
+            i{
+                color:$logo;
             }
+            &:hover {
+                color:$logo;
+            }
+    }
+    .doing{
+        margin-left: 30px;
+        list-style: circle;
     }
 }
